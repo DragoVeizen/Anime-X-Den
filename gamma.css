@@ -1,23 +1,26 @@
  /* HOME PAGE*/
+ /* HOME PAGE*/
  body{
     font-size: 16px;
     color: #fff;
-    background-color: #61122f;
+    background-color: #1f2833;
     font-family: 'Oxygen', sans-serif;
 }
  /* HEADER OF HOME PAGE*/
 #header-nav{
-    background-color: #f6b319;
+    background-color: #c5c6c7;
     border-radius: 0;
     border:0;
 }
 #logo-img{
-    background:url(draglogo.png) no-repeat;
+    background:url(pokelogo.png) no-repeat;
     width: 100px;
     height: 100px;
     margin: 10px 15px 10px 0;
-filter: invert(21%) sepia(39%) saturate(3502%) hue-rotate(340deg) brightness(100%) contrast(104%);
- border-radius: 50%;
+   /* filter: invert(21%) sepia(39%) saturate(3502%) hue-rotate(340deg) brightness(100%) contrast(104%);*/
+   border-radius: 50%;
+   box-shadow: 1px 1px 1px 1px #45a293;
+    
 }
 .pull-left {
     float: left;
@@ -27,11 +30,23 @@ filter: invert(21%) sepia(39%) saturate(3502%) hue-rotate(340deg) brightness(100
 }
 .navbar-brand h1{
     font-family: 'Lora',serif;
-    color: #557c3e;
+    color: #66fcf1;
     font-size: 1.5em;
     text-transform: uppercase;
     font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
+    text-shadow: 1px 1px 1px #45a293;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    text-decoration: none;
+}
+.navbar-brand span{
+    font-family: 'Lora',serif;
+    color: #ec1010;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px .5px 0px rgb(207, 36, 36), 6px 5px 0px rgba(0,0,0,0.15);
     margin-top: 0;
     margin-bottom: 0;
     line-height: .75;
@@ -49,8 +64,9 @@ filter: invert(21%) sepia(39%) saturate(3502%) hue-rotate(340deg) brightness(100
     font-size: .7em;
     margin-top: 15px;
 }
-.navbar-brand p span{
+#copyintro{
     vertical-align: middle;
+    color: 	#7b7f86;
 }
 
 @media(min-width:768px){
@@ -62,20 +78,22 @@ filter: invert(21%) sepia(39%) saturate(3502%) hue-rotate(340deg) brightness(100
     margin-top: 10px;
 }
 #nav-list a{
-    color: #951C49;
+    color: #66fcf1;
     text-align: center;
 }
-
-#menuclass {
-    color: #951C49;
+#homeclass{
+    color: #66fcf1;
     text-align: center;
-    
+    border-radius: 5px;
+    background-color: rgb(51, 51, 51) !important;
 }
 #nav-list a:hover{
-background: #E7E7E7;
-text-decoration: blueviolet;
+    border:2px solid  #66fcf1;
+    border-radius: 5px;
+    text-decoration: blueviolet;
+    background-color: rgb(51, 51, 51);
+    transform: translateY(-10px);
 }
-
 #nav-list a i{
 font-size: 1.5em;
 }
